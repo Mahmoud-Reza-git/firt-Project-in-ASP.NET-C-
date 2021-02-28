@@ -67,6 +67,15 @@ namespace WebApplication1.Pages {
         protected global::System.Web.UI.WebControls.Button Button1;
         
         /// <summary>
+        /// cmdSignOut-Steuerelement
+        /// </summary>
+        /// <remarks>
+        /// Automatisch generiertes Feld
+        /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputSubmit cmdSignOut;
+        
+        /// <summary>
         /// Button3-Steuerelement
         /// </summary>
         /// <remarks>

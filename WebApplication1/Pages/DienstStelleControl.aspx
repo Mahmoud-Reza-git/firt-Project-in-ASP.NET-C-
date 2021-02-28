@@ -99,9 +99,9 @@
     <asp:Label ID="lblErrorMessage" Text="" runat="server" ForeColor="Red" />
      <table style="width: 90%; text-align: center;">
         <tr>
-            <td style="width: 30%"> <asp:Button ID="Button1" runat="server" class="btn btn-success btn-lg" Text="BookingAnsicht" OnClick="Button1_Click" /></td>
-            <td style="width: 30%"></td>
-            <td style="width: 30%"><asp:Button ID="Button3" runat="server" class="btn btn-success btn-lg" Text="RaumControl" OnClick="Button3_Click" /></td>
+            <td style="width: 30%"> <asp:Button ID="BtnBooking" runat="server" class="btn btn-success btn-lg" Text="BookingAnsicht" OnClick="BtnBooking_Click" /></td>
+            <td style="width: 30%">  <input type="submit" Value="Ausloggen" runat="server" id="cmdSignOut" class="btn btn-success btn-lg center-block"></td>
+            <td style="width: 30%"><asp:Button ID="BtnRaumContro" runat="server" class="btn btn-success btn-lg" Text="RaumControl" OnClick="BtnRaumContro_Click" /></td>
 
         </tr>
     </table>

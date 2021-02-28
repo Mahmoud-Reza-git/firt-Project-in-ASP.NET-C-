@@ -164,7 +164,7 @@
         <table style="width: 90%; text-align: center;">
         <tr>
             <td style="width: 30%"> <asp:Button ID="Button1" runat="server" class="btn btn-success btn-lg" Text="BookingAnsicht" OnClick="Button1_Click" /></td>
-            <td style="width: 30%"></td>
+            <td style="width: 30%"> <input type="submit" Value="Ausloggen" runat="server" id="cmdSignOut" class="btn btn-success btn-lg center-block"></td>
             <td style="width: 30%"><asp:Button ID="Button3" runat="server" class="btn btn-success btn-lg" Text="DienstStelleControl" OnClick="Button3_Click" /></td>
 
         </tr>

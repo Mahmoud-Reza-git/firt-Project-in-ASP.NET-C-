@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 using System.Data;
 using System.Data.SqlClient;
 using System.Net.Mail;
@@ -13,21 +8,21 @@ namespace WebApplication1.Pages
 {
 
     public partial class Page4 : System.Web.UI.Page
-    {
-        
+    {        
 
         protected void Page_Load(object sender, EventArgs e)
         {
-
-            txtnachname.Text = Session["nachname"].ToString();
-            txttel.Text = Session["tel"].ToString();
-            txtfax.Text = Session["fax"].ToString();
-            txtemail.Text = Session["email"].ToString();
-            taxtvorname.Text = Session["vorname"].ToString();
-            txtstart.Text = Session["start"].ToString();
-            txtend.Text = Session["end"].ToString();
-            txtkurs.Text = Session["kursname"].ToString();
-            txtraum.Text = Session["raum"].ToString();
+            DateTime starttime = DateTime.Parse(Session["start"].ToString());
+            DateTime endtime = DateTime.Parse(Session["end"].ToString());
+            taxtvorname.Text = " " + Session["vorname"].ToString();
+            txtnachname.Text = " "+ Session["nachname"].ToString();
+            txttel.Text = " " + Session["tel"].ToString();
+            txtfax.Text = " " + Session["fax"].ToString();
+            txtemail.Text = " " + Session["email"].ToString();            
+            txtstart.Text = " " + starttime.ToString("dd.MM.yyyy 'um' H:mm 'Uhr'");
+            txtend.Text = " " + endtime.ToString("dd.MM.yyyy 'um' H:mm 'Uhr'");
+            txtkurs.Text = " " + Session["kursname"].ToString();
+            txtraum.Text = " " + Session["raum"].ToString();
         }
 
         private void InsertUser()
@@ -106,10 +101,10 @@ namespace WebApplication1.Pages
             using (MailMessage mm = new MailMessage("testmail33@mein.gmx",Convert.ToString( Session["email"].ToString())))
             {
                 mm.Subject = "Anfrage würde bearbeiten";
-                string body = "....";
+                string body = "Sehr geeherte Damen und Herren";
                 body += "<br /><br />Das ist Ein Test";
                 body += "<br />....";
-                body += "<br /><br />....";
+                body += "<br /><br />Mit freundlichen Grüßen";
                 mm.Body = body;
                 mm.IsBodyHtml = true;
                 SmtpClient smtp = new SmtpClient("mail.gmx.net", 25);

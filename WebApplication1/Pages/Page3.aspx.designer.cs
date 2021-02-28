@@ -130,6 +130,15 @@ namespace WebApplication1.Pages {
         protected global::System.Web.UI.WebControls.Label Label13;
         
         /// <summary>
+        /// Startdate-Steuerelement
+        /// </summary>
+        /// <remarks>
+        /// Automatisch generiertes Feld
+        /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Startdate;
+        
+        /// <summary>
         /// datetimepicker1-Steuerelement
         /// </summary>
         /// <remarks>
@@ -137,6 +146,24 @@ namespace WebApplication1.Pages {
         /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputText datetimepicker1;
+        
+        /// <summary>
+        /// Enddate-Steuerelement
+        /// </summary>
+        /// <remarks>
+        /// Automatisch generiertes Feld
+        /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Enddate;
+        
+        /// <summary>
+        /// DateError-Steuerelement
+        /// </summary>
+        /// <remarks>
+        /// Automatisch generiertes Feld
+        /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label DateError;
         
         /// <summary>
         /// datetimepicker2-Steuerelement

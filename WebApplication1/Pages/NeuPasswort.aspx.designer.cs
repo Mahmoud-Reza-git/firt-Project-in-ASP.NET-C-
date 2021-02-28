@@ -10,105 +10,123 @@
 namespace WebApplication1.Pages {
     
     
-    public partial class Page2 {
+    public partial class NeuPasswort {
         
         /// <summary>
-        /// txtvorname-Steuerelement
+        /// lblNeuUser-Steuerelement
         /// </summary>
         /// <remarks>
         /// Automatisch generiertes Feld
         /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtvorname;
+        protected global::System.Web.UI.WebControls.Label lblNeuUser;
         
         /// <summary>
-        /// txtnachname-Steuerelement
+        /// lblErrorPass-Steuerelement
         /// </summary>
         /// <remarks>
         /// Automatisch generiertes Feld
         /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtnachname;
+        protected global::System.Web.UI.WebControls.Label lblErrorPass;
         
         /// <summary>
-        /// txttel-Steuerelement
+        /// lblPass-Steuerelement
         /// </summary>
         /// <remarks>
         /// Automatisch generiertes Feld
         /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txttel;
+        protected global::System.Web.UI.WebControls.Label lblPass;
         
         /// <summary>
-        /// lbltelerror-Steuerelement
+        /// Password-Steuerelement
         /// </summary>
         /// <remarks>
         /// Automatisch generiertes Feld
         /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbltelerror;
+        protected global::System.Web.UI.WebControls.Label Password;
         
         /// <summary>
-        /// txtfax-Steuerelement
+        /// txtPass1-Steuerelement
         /// </summary>
         /// <remarks>
         /// Automatisch generiertes Feld
         /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtfax;
+        protected global::System.Web.UI.HtmlControls.HtmlInputPassword txtPass1;
         
         /// <summary>
-        /// lblfaxerror-Steuerelement
+        /// lblpass1-Steuerelement
         /// </summary>
         /// <remarks>
         /// Automatisch generiertes Feld
         /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblfaxerror;
+        protected global::System.Web.UI.WebControls.Label lblpass1;
         
         /// <summary>
-        /// txtemail-Steuerelement
+        /// lblPassLeer-Steuerelement
         /// </summary>
         /// <remarks>
         /// Automatisch generiertes Feld
         /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtemail;
+        protected global::System.Web.UI.WebControls.Label lblPassLeer;
         
         /// <summary>
-        /// txtadresse-Steuerelement
+        /// Label6-Steuerelement
         /// </summary>
         /// <remarks>
         /// Automatisch generiertes Feld
         /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtadresse;
+        protected global::System.Web.UI.WebControls.Label Label6;
         
         /// <summary>
-        /// txtwohnort-Steuerelement
+        /// txtPass2-Steuerelement
         /// </summary>
         /// <remarks>
         /// Automatisch generiertes Feld
         /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtwohnort;
+        protected global::System.Web.UI.HtmlControls.HtmlInputPassword txtPass2;
         
         /// <summary>
-        /// txtplz-Steuerelement
+        /// lblpass2-Steuerelement
         /// </summary>
         /// <remarks>
         /// Automatisch generiertes Feld
         /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtplz;
+        protected global::System.Web.UI.WebControls.Label lblpass2;
         
         /// <summary>
-        /// Button-Steuerelement
+        /// lblPassLeer2-Steuerelement
         /// </summary>
         /// <remarks>
         /// Automatisch generiertes Feld
         /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button;
+        protected global::System.Web.UI.WebControls.Label lblPassLeer2;
+        
+        /// <summary>
+        /// Bestätigen-Steuerelement
+        /// </summary>
+        /// <remarks>
+        /// Automatisch generiertes Feld
+        /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Bestätigen;
+        
+        /// <summary>
+        /// cmdSignOut-Steuerelement
+        /// </summary>
+        /// <remarks>
+        /// Automatisch generiertes Feld
+        /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputSubmit cmdSignOut;
     }
 }

@@ -346,7 +346,9 @@
     <Content Include="Pages\BookingAnsicht.aspx" />
     <Content Include="Pages\Default.aspx" />
     <Content Include="Pages\DienstStelleControl.aspx" />
+    <Content Include="Pages\Hausordnung.aspx" />
     <Content Include="Pages\Logon.aspx" />
+    <Content Include="Pages\NeuPasswort.aspx" />
     <Content Include="Pages\Page2.aspx" />
     <Content Include="Pages\Page3.aspx" />
     <Content Include="Pages\Page4.aspx" />
@@ -1377,12 +1379,26 @@
     <Compile Include="Pages\DienstStelleControl.aspx.designer.cs">
       <DependentUpon>DienstStelleControl.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Hausordnung.aspx.cs">
+      <DependentUpon>Hausordnung.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Hausordnung.aspx.designer.cs">
+      <DependentUpon>Hausordnung.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Logon.aspx.cs">
       <DependentUpon>Logon.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Pages\Logon.aspx.designer.cs">
       <DependentUpon>Logon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\NeuPasswort.aspx.cs">
+      <DependentUpon>NeuPasswort.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\NeuPasswort.aspx.designer.cs">
+      <DependentUpon>NeuPasswort.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Page2.aspx.cs">
       <DependentUpon>Page2.aspx</DependentUpon>
